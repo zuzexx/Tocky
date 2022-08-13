@@ -7,6 +7,7 @@
 import Ready from "./ready.svelte";
 import CustomerOpinion from "./customerOpinion.svelte";
 import Pricing from "./pricing.svelte";
+import Faq from "./components/faq.svelte";
 
 </script>
 
@@ -21,6 +22,7 @@ import Pricing from "./pricing.svelte";
 <Ready/>
 <CustomerOpinion/>
 <Pricing/>
+<Faq/>
 </main>
 <footer>
 

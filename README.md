@@ -23,7 +23,8 @@ I got an idea for this site from the [Edgy site](https://catherineisonline.githu
 - Mobile-first workflow
 - Vanilla JS
 - [Svelte](https://svelte.dev/) - JS framework
--[Svelte transitions](https://www.npmjs.com/package/svelte-transitions)
+-[Svelte transitions](https://www.npmjs.com/package/svelte-transitions) - for customer images
+- [Svelte collapsible](https://www.npmjs.com/package/svelte-collapsible) - for faq accordion
 
 ### Useful resources
 

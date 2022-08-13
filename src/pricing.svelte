@@ -14,7 +14,9 @@
             <li><img src="{image}" alt="" class="image">{text}</li>
             <li><img src="{image}" alt="" class="image">{text}</li>
             <li><img src="{image}" alt="" class="image">{text}</li>
+            
         </ul>
+        <Buttons>Get Started!</Buttons>
     
     </div>
     
@@ -28,6 +30,8 @@
             <li><img src="{image}" alt="" class="image">{text}</li>
             <li><img src="{image}" alt="" class="image">{text}</li>
             <li><img src="{image}" alt="" class="image">{text}</li>
+        </ul>
+        <Buttons>Get Started!</Buttons>
     
     </div>
     
@@ -39,7 +43,8 @@
             <li><img src="{image}" alt="" class="image">{text}</li>
             <li><img src="{image}" alt="" class="image">{text}</li>
             <li><img src="{image}" alt="" class="image">{text}</li>
-            
+        </ul>
+        <Buttons>Get Started!</Buttons>
     
     </div> 
 </div>
@@ -51,6 +56,10 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        border-radius: 10px;
+        border:1px solid black;
+        width: 350px;
+        margin: auto;
     }
     .image{
         height: 1rem;
@@ -66,6 +75,9 @@
             justify-content: center;
             align-items: center;
             width: 50vw;
+        }
+        .container{
+            width: 500px;
         }
     }
 </style>
