@@ -1,6 +1,6 @@
 
 <script>
-    import Buttons from "./components/buttons.svelte";
+    import Buttons from "./buttons.svelte";
 </script>
 
 <div class="container">

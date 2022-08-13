@@ -3,11 +3,13 @@
 	import TopPart from "./components/topPart.svelte";
 	import LittleGrid from "./components/littleGrid.svelte";
 	import Trusted from "./components/trusted.svelte";
-	import HowItWorks from "./howItWorks.svelte";
-import Ready from "./ready.svelte";
-import CustomerOpinion from "./customerOpinion.svelte";
-import Pricing from "./pricing.svelte";
+	import HowItWorks from "./components/howItWorks.svelte";
+import Ready from "./components/ready.svelte";
+import CustomerOpinion from "./components/customerOpinion.svelte";
+import Pricing from "./components/pricing.svelte";
 import Faq from "./components/faq.svelte";
+import Newsletter from "./components/newsletter.svelte";
+import Footer from "./components/footer.svelte";
 
 </script>
 
@@ -23,10 +25,11 @@ import Faq from "./components/faq.svelte";
 <CustomerOpinion/>
 <Pricing/>
 <Faq/>
+<Ready/>
+<Newsletter/>
+<Footer/>
 </main>
-<footer>
 
-</footer>
 
 <style>
 	

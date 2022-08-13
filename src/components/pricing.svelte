@@ -1,5 +1,5 @@
 <script>
-    import Buttons from "./components/buttons.svelte";
+    import Buttons from "./buttons.svelte";
 
     export let text = "Li Europan lingues es membres del sam familie.";
     export let image = "images/check.png"
