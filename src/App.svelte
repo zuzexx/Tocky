@@ -3,6 +3,10 @@
 	import TopPart from "./components/topPart.svelte";
 	import LittleGrid from "./components/littleGrid.svelte";
 	import Trusted from "./components/trusted.svelte";
+	import HowItWorks from "./howItWorks.svelte";
+import Ready from "./ready.svelte";
+import CustomerOpinion from "./customerOpinion.svelte";
+
 </script>
 
 <header>
@@ -12,6 +16,9 @@
 <TopPart/>
 <LittleGrid/>
 <Trusted/>
+<HowItWorks/>
+<Ready/>
+<CustomerOpinion/>
 </main>
 <footer>
 

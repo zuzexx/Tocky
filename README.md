@@ -1,4 +1,6 @@
-# Tocky - a Tik Tok narketing agency
+# Tocky - a Tik Tok marketing agency
+
+I got an idea for this site from the [Edgy site](https://catherineisonline.github.io/edgy/) made by [Catherine](https://github.com/catherineisonline). Check her out! Her work is amazing! I also used [High Social](https://www.highsocial.com) for inspiration.
 
 
 ### Screenshot
@@ -9,7 +11,7 @@
 
 ### Links
 
-- Solution URL: [GitHub]()
+- Repository URL: [GitHub](https://github.com/zuzexx/Tocky)
 - Live Site URL: [Vercel live site]()
 
 ### Built with
