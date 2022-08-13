@@ -1,4 +1,12 @@
 <script>
+    import { fade } from 'svelte/transition'
+	let show = false
+	let status = false
+	
+	function toggleShow() {
+		show = !show
+	}
+
     export let customers = [
         {
             image:"images/sarah-adrian-alvarez.jpg",
@@ -35,14 +43,20 @@
 
         <div class="grid-container">
             {#each customers as customer}
-            <div class="quote-container" style="background-image: url({customer.image});" >
+            <div class="quote-container" style="background-image: url({customer.image});" on:mouseenter={toggleShow}
+            on:mouseleave={toggleShow} >
                 
-                <div class="inner-text">
+                    {#if show}
+                    <div class="inner-text" transition:fade="{{ duration: 2000 }}"
+                on:outrostart="{() => status = true}"
+                on:outroend="{() => status = false}">
                 <h4 class="name-text">{customer.name} </h4>
                 {#each opinions as opinion}
                     <p class="inner-paragraph">{opinion.opinion}</p>
                 {/each}
                 </div>
+                    {/if}
+                
             </div>
             {/each}
         </div>
@@ -78,17 +92,19 @@
         text-align: left;
         width: 250px;
         margin: auto;    
+        color: aliceblue;
     }
     .quote-container:hover{
         cursor: crosshair;
         
         
-    -webkit-filter: brightness(65%);
+    -webkit-filter: brightness(45%);
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
     transition: all 1s ease;
+    transform: scale(1.05);
     }
    
     @media only screen and (min-width: 1200px) {

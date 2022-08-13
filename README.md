@@ -23,6 +23,7 @@ I got an idea for this site from the [Edgy site](https://catherineisonline.githu
 - Mobile-first workflow
 - Vanilla JS
 - [Svelte](https://svelte.dev/) - JS framework
+-[Svelte transitions](https://www.npmjs.com/package/svelte-transitions)
 
 ### Useful resources
 
@@ -30,3 +31,4 @@ I got an idea for this site from the [Edgy site](https://catherineisonline.githu
 - [Pixabay](https://pixabay.com/)
 - [Profile pictures](https://unsplash.com/s/photos/persona)
 - [Random Text Generator](https://www.blindtextgenerator.com/lorem-ipsum)
+<!--[On hover effect for pics](https://svelte.dev/repl/41a12ececb8744d7bc937933ad2ffa49?version=3.22.3)-->

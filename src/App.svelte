@@ -6,6 +6,7 @@
 	import HowItWorks from "./howItWorks.svelte";
 import Ready from "./ready.svelte";
 import CustomerOpinion from "./customerOpinion.svelte";
+import Pricing from "./pricing.svelte";
 
 </script>
 
@@ -19,6 +20,7 @@ import CustomerOpinion from "./customerOpinion.svelte";
 <HowItWorks/>
 <Ready/>
 <CustomerOpinion/>
+<Pricing/>
 </main>
 <footer>
 
