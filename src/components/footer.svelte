@@ -2,6 +2,7 @@
 </script>
 
 <footer>
+    <hr>
     <div class="footer-container">
 
         <div class="solutions-container">
@@ -40,17 +41,31 @@
     </div>
     <hr>
     <div class="social-media">
-        <img src="images/facebook-logo.png" alt="" class="facebook">
-        <img src="images/tik-tok.png" alt="" class="tiktok">
-        <img src="images/instagram-logo.png" alt="" class="instagram">
-        <img src="images/twitter-logo.png" alt="" class="twitter">
+        <a href="www.facebook.com"><img src="images/facebook-logo.png" alt="" class="facebook"></a>
+        <a href="www.tiktok.com"><img src="images/tik-tok.png" alt="" class="tiktok"></a>
+        <a href="www.instagram.com"><img src="images/instagram-logo.png" alt="" class="instagram"></a>
+        <a href="www.twitter.com"><img src="images/twitter-logo.png" alt="" class="twitter"></a>
     </div>
 </footer>
  <style>
     footer{
         width: 80vw;
         height: auto;
+        margin-top: 6rem;
+        padding:2rem;
+       
     }
+    li{
+        font-size: 0.8rem;
+        font-weight: var(--light);
+        color:var(--button-hover) ;
+        padding: 0.2rem;
+    }
+    li:hover{
+        cursor:pointer;
+        text-decoration: underline;
+    }
+    
     .footer-container{
         width: 80vw;
         display: gird;
@@ -65,6 +80,12 @@
     hr{
         width: 80vw;
         margin: auto;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        border:none;
+        height: 3px;
+        background-color: var(--header);
+        
     }
     ul{
         list-style-type: none;
@@ -72,7 +93,9 @@
     }
 
     @media only screen and (min-width: 1200px) {
-        
+        footer{
+            width: 50vw;
+        }
         .footer-container{
             width: 50vw;
             display: flex;
@@ -81,7 +104,11 @@
             align-items: center;
         }
         hr{
-            display: none;
+            width: 50vw;
         }
+        li{
+            font-size: 0.9rem;
+        }
+       
     }
  </style>

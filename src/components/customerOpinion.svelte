@@ -68,8 +68,12 @@
         width: 80vw;
         margin: auto;
         text-align: center;
+        margin-top: 7rem;
     }
-    
+    .text{
+        color: var(--paragraph);
+        font-size: 0.9rem;
+    }
     .quote-container{
         width: 25rem;
         height: 25rem;
@@ -92,7 +96,7 @@
         text-align: left;
         width: 250px;
         margin: auto;    
-        color: aliceblue;
+        color: var(--light-paragraph);
     }
     .quote-container:hover{
         cursor: crosshair;
@@ -121,6 +125,9 @@
             margin: auto;
             row-gap: 1rem;
             column-gap: 1rem;
+        }
+        .text{
+            font-size: 1rem;
         }
         
         

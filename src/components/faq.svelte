@@ -32,8 +32,9 @@
 </script>
 
 <div class="acc-container">
+    
     <Accordion>
-	
+        <h2>FAQ</h2>
         { #each items as item }
         
             <AccordionItem key={item.key}>
@@ -95,6 +96,7 @@
     p{
             width: 25vw;
             max-width: 600px;
+            color: var(--paragraph);
         }
 
     @media only screen and (min-width: 1200px) {

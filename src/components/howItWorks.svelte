@@ -61,6 +61,7 @@
         margin:auto;
         text-align: center;
         width: 80vw;
+        margin-top: 9rem;
     }
     .how-container{
         width:80vw;
@@ -77,6 +78,11 @@
         max-width: 250px;
         margin: auto;
     }
+    p{
+      color:var(--paragraph);
+      font-size: 0.9rem;
+    }
+
 
   @media only screen and (min-width: 1200px) {
     .container{
@@ -88,6 +94,13 @@
         
         grid-template-columns: 1fr 1fr 1fr;
         
+    }
+    p{
+      font-size: 1rem;
+    }
+    .paragraph{
+      max-width:800px;
+      margin: auto;
     }
     
   }

@@ -14,6 +14,7 @@
         width:80vw;
         text-align: center;
         margin: auto;
+        margin-top: 7rem;
     }
     img{
         width: 10vw;

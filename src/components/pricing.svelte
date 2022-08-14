@@ -57,9 +57,22 @@
         align-items: center;
         text-align: center;
         border-radius: 10px;
-        border:1px solid black;
+        border:1px solid var(--header-span);
         width: 350px;
         margin: auto;
+        padding: 2rem;
+    }
+
+    .all-prices{
+        margin-top: 8rem;
+    }
+    .container:hover{
+        transform: scale(1.1);
+        transition: 0.7rem;
+        cursor: pointer;
+    }
+    .premium-container{
+        border:3px solid var(--header-border-bottom);
     }
     .image{
         height: 1rem;

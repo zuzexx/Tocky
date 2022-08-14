@@ -44,11 +44,7 @@
         text-transform: capitalize;
         border-radius: 10px;   
     }
-    h2{
-      color: var(--paragraph);
-      font-size: 1.1rem;
-      font-weight: var(--bold);
-    }
+   
     p{
       color: var(--button-hover);
       font-size: 0.9rem;
@@ -76,6 +72,7 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         width: 50vw;
         margin: auto;
+        margin-top: 6rem;
     }
     h2{
       font-size: 1.5rem;

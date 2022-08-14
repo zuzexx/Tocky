@@ -49,6 +49,7 @@ import Footer from "./components/footer.svelte";
 		--header-span:#97dee8;
 	}
 	
+	
 main{
 	width: 80vw;
 	margin: auto;

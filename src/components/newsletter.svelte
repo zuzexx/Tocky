@@ -26,15 +26,55 @@
         width: 80vw;
         text-align: center;
         margin: auto;
+        margin-top: 7rem;
+        background-color: var(--header-span);
+        border-radius: 20px;
+        padding: 2rem;
+    }
+    .privacy-policy{
+        font-size: 0.8rem;
+        font-weight: var(--light);
+        color: var(--paragraph);
+    }
+    span{
+        font-size: 0.9rem;
+        text-decoration: underline;
+        font-weight: var(--regular);
+        color: var(--header);
+    }
+    p{
+        color: var(--paragraph);
+        font-size: 0.9rem;
+        font-weight: var(--regular);
     }
 
     @media only screen and (min-width:1200px){
         
     .newsletter-container{
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
         width: 50vw;
+       
         
+    }
+    .inner-container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 50vw;
+
+    }
+    input{
+        width: 600px;
+        margin-top: 1rem;
+
+    }
+    .privacy-policy{
+        text-align: left;
+    }
+    p{
+        font-size: 1rem;
     }
     }
     
