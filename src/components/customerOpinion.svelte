@@ -1,38 +1,5 @@
 <script>
-    import { fade } from 'svelte/transition'
-	let show = false
-	let status = false
-	
-	function toggleShow() {
-		show = !show
-	}
-
-    export let customers = [
-        {
-            image:"images/sarah-adrian-alvarez.jpg",
-            name:"Sarah Adrian Alvarez",
-            
-        },
-        {
-            image:"images/riley-rogers.jpg",
-            name:"Riley Rogers",
-           
-        },
-        {
-            image:"images/rover-heathers.jpg",
-            name:"Rover Heathers",
-            
-        },
-        {
-            image:"images/genevive-thomdon.jpg",
-            name:"Genevive Thomdon",
-           
-        },
-    ];
-
-    export let opinions =[{
-        opinion:"Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular.  Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.",
-    }];
+   
 
 </script>
 
@@ -42,23 +9,58 @@
         <p class="text">Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular.</p>
 
         <div class="grid-container">
-            {#each customers as customer}
-            <div class="quote-container" style="background-image: url({customer.image});" on:mouseenter={toggleShow}
-            on:mouseleave={toggleShow} >
+            
+            <div class="quote-container sarah" style="background-image: url('images/sarah-adrian-alvarez.jpg');">
                 
-                    {#if show}
-                    <div class="inner-text" transition:fade="{{ duration: 2000 }}"
-                on:outrostart="{() => status = true}"
-                on:outroend="{() => status = false}">
-                <h4 class="name-text">{customer.name} </h4>
-                {#each opinions as opinion}
-                    <p class="inner-paragraph">{opinion.opinion}</p>
-                {/each}
+                   
+                    <div class="inner-text" >
+                <h4 class="name-text">Sarah Adrian Alvarez </h4>
+                
+                    <p class="inner-paragraph">"Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular.  Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules."</p>
+                
                 </div>
-                    {/if}
+                    
                 
             </div>
-            {/each}
+            <div class="quote-container riley" style="background-image: url(images/riley-rogers.jpg);">
+                
+                    
+                    <div class="inner-text">
+                <h4 class="name-text">Riley Rogers </h4>
+                
+                    <p class="inner-paragraph">"Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular.  Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules."</p>
+                
+                </div>
+                    
+                
+            </div>
+
+            <div class="quote-container" style="background-image: url(images/rover-heathers.jpg);">
+                
+                    
+                    <div class="inner-text">
+                <h4 class="name-text">Rover Heathers </h4>
+                
+                    <p class="inner-paragraph">"Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular.  Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules."</p>
+                
+                </div>
+                    
+                
+            </div>
+
+            <div class="quote-container" style="background-image: url(images/genevive-thomdon.jpg);" >
+                
+                    
+                    <div class="inner-text">
+                <h4 class="name-text">Genevive Thomdon</h4>
+                
+                    <p class="inner-paragraph">"Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular.  Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules."</p>
+                
+                </div>
+                    
+                
+            </div>
+            
         </div>
     </div>
 </div>
@@ -88,6 +90,10 @@
         align-items: center;
         text-align: center;
     }
+    .quote-container:hover .inner-text{
+        visibility: visible;
+ opacity: 1; 
+    }
     .inner-text{
         display: flex;
         justify-content: center;
@@ -97,17 +103,19 @@
         width: 250px;
         margin: auto;    
         color: var(--light-paragraph);
+        opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear; 
+ transition: visibility 0s, opacity 0.5s linear;
+ background-color: var(--background);
+ border-radius: 20px;
+ padding:1rem;
     }
     .quote-container:hover{
         cursor: crosshair;
         
-        
-    -webkit-filter: brightness(45%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+    
+    transition:  1s ease;
     transform: scale(1.05);
     }
    
