@@ -12,31 +12,48 @@ import Newsletter from "./components/newsletter.svelte";
 import Footer from "./components/footer.svelte";
 
 </script>
+<body>
+	
+	<header>
+		<Header/>
+	</header>
+	<main>
+	<TopPart/>
+	<LittleGrid/>
+	<Trusted/>
+	<HowItWorks/>
+	<Ready/>
+	<CustomerOpinion/>
+	<Pricing/>
+	<Faq/>
+	<Ready/>
+	<Newsletter/>
+	<Footer/>
+	</main>
+</body>
 
-<header>
-	<Header/>
-</header>
-<main>
-<TopPart/>
-<LittleGrid/>
-<Trusted/>
-<HowItWorks/>
-<Ready/>
-<CustomerOpinion/>
-<Pricing/>
-<Faq/>
-<Ready/>
-<Newsletter/>
-<Footer/>
-</main>
+
 
 
 <style>
+
+	:root{
+		--background:#f3f3f3;
+		--header:#001446;
+		--paragraph:#030a67;
+		--light-paragraph:#c6ddea;
+		--button-color:#0c213a;
+		--button-hover:#9ec0ea;
+		--header-border-top:#35edfa;
+		--header-border-bottom:#db464f;
+		--header-span:#97dee8;
+	}
 	
 main{
 	width: 80vw;
 	margin: auto;
 }
+
 @media only screen and (min-width: 1200px) {
     main {
       width: 50vw;

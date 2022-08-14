@@ -16,12 +16,48 @@
         </div>
     </div>
     <div class="image-container">
-        <img src="images/bg-image.png" alt="" class="top-image">
+        <img src="images/transparent.png" alt="" class="top-image">
     </div>
 
 </div>
 
 <style> 
+h1{
+    color:var(--header);
+    font-size: 1.3rem;
+    font-weight: var(--semi-bold);
+}
+h1 span{
+    font-size: 1.4rem;
+    font-weight: var(--bold);
+    text-transform: uppercase;
+    color:var(--header-span);
+}
+.input-container{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.paragraph{
+    font-weight: var(--light);
+    font-size: 0.9rem;
+    color: var(--paragraph);
+}
+.terms-of-service{
+    font-weight: var(--extra-light);
+    font-size: 0.7rem;
+    color: var(--paragraph);
+}
+.terms-of-service span{
+    text-decoration: underline;
+    font-weight: var(--regular);
+}
+.terms-of-service span:hover{
+    cursor: pointer;
+}
 .container{
     margin: auto;
     display: flex;
@@ -57,11 +93,15 @@
         text-align: left;
     }
     .paragraph{
-        width: 30vw;
+        width: 25vw;
+        text-align: left;
     }
     .top-image{
-        width: 40vw;
+        width: 25vw;
         margin-left: 2rem;
+    }
+    h1{
+        text-align: left;
     }
     
   }

@@ -49,6 +49,19 @@
 
   li {
     padding: 1rem;
+    font-size: 0.9rem;
+    color: var(--header);
+    font-weight:var(--regular);
+   
+  }
+  li:hover{
+    cursor: pointer;
+    border-bottom:1px solid var(--header-border-bottom);
+    text-transform: uppercase;
+    border-left:1px solid var(--header-border-top);
+    font-weight:var(--medium);
+    font-size: 1rem;
+    
   }
   .logo {
     width: 50px;
@@ -67,6 +80,9 @@
     .header-container, .inner-container {
       width: 50vw;
     }
+    li {
+    padding: 2rem;
+  }
     
   }
 </style>
