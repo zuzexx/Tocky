@@ -1,5 +1,5 @@
 <script>
-  import Buttons from "./buttons.svelte";
+  import Buttons from "../components/buttons.svelte";
 </script>
 
 <div class="header-container">

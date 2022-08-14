@@ -1,15 +1,15 @@
 <script>
-	import Header from "./components/header.svelte";
-	import TopPart from "./components/topPart.svelte";
-	import LittleGrid from "./components/littleGrid.svelte";
-	import Trusted from "./components/trusted.svelte";
-	import HowItWorks from "./components/howItWorks.svelte";
-import Ready from "./components/ready.svelte";
-import CustomerOpinion from "./components/customerOpinion.svelte";
-import Pricing from "./components/pricing.svelte";
-import Faq from "./components/faq.svelte";
-import Newsletter from "./components/newsletter.svelte";
-import Footer from "./components/footer.svelte";
+	import Header from "./landingPage/header.svelte";
+	import TopPart from "./landingPage/topPart.svelte";
+	import LittleGrid from "./landingPage/littleGrid.svelte";
+	import Trusted from "./landingPage/trusted.svelte";
+	import HowItWorks from "./landingPage/howItWorks.svelte";
+import Ready from "./landingPage/ready.svelte";
+import CustomerOpinion from "./landingPage/customerOpinion.svelte";
+import Pricing from "./landingPage/pricing.svelte";
+import Faq from "./landingPage/faq.svelte";
+import Newsletter from "./landingPage/newsletter.svelte";
+import Footer from "./landingPage/footer.svelte";
 
 </script>
 <body>
@@ -31,37 +31,3 @@ import Footer from "./components/footer.svelte";
 	<Footer/>
 	</main>
 </body>
-
-
-
-
-<style>
-
-	:root{
-		--background:#282828;
-		--header:#f0f0f0;
-		--paragraph:#d4d4d4;
-		--light-paragraph:#dcdcdc;
-		--button-color:#0bb2ca;
-		--button-hover:#891109;
-		--header-border-top:#35edfa;
-		--header-border-bottom:#db464f;
-		--header-span:#97dee8;
-		--little-grid:#9f9f9f;
-		--free-trial:#3d3d3d;
-		--newsletter:#242424;
-		--footer:#e0e0e0;
-	}
-	
-	
-	
-main{
-	width: 100vw;
-	margin: auto;
-}
-
-@media only screen and (min-width: 1200px) {
-    
-    
-  }
-</style>

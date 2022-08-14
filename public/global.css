@@ -11,6 +11,19 @@
     --bold:700;
     --extra-bold:800;
     --black:900;
+    --background:#282828;
+		--header:#f0f0f0;
+		--paragraph:#d4d4d4;
+		--light-paragraph:#dcdcdc;
+		--button-color:#0bb2ca;
+		--button-hover:#891109;
+		--header-border-top:#35edfa;
+		--header-border-bottom:#db464f;
+		--header-span:#97dee8;
+		--little-grid:#9f9f9f;
+		--free-trial:#3d3d3d;
+		--newsletter:#242424;
+		--footer:#e0e0e0;
 }
 *:focus { /* no focus border on input and other elements*/
     outline: none;
@@ -64,6 +77,11 @@ input{
         font-size: 0.9rem;
         color: var(--header);
       }
+      main{
+        width: 100vw;
+        margin: auto;
+      }
+      
 
       @media only screen and (min-width:1200px){
         h2{
