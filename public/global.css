@@ -38,7 +38,10 @@ body{
         background-color: var(--background);
     
 }
-input{
+a{
+  text-decoration: none;
+}
+input, textarea{
     width: 50vw;
     height: 1rem;
     padding: 1rem;

@@ -9,7 +9,7 @@
   import Pricing from "./pricing.svelte";
   import Faq from "./faq.svelte";
   import Newsletter from "./newsletter.svelte";
-  import Footer from "./footer.svelte";
+  import Footer from "../components/footer.svelte";
 </script>
 
 <body>

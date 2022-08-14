@@ -8,7 +8,7 @@
   import Price from "./routes/price/price.svelte"
   import LandingPage from "./routes/landingPage/landingPage.svelte";
   import Header from "./routes/components/header.svelte";
-import NotFound from "./notFound/notFound.svelte";
+import NotFound from "./routes/notFound/notFound.svelte";
 
 
   let routes = {
@@ -28,7 +28,10 @@ import NotFound from "./notFound/notFound.svelte";
 <header>
   <Header />
 </header>
-<Router {routes}/>
+<main>
+  <Router {routes}/>
+</main>
+
 
 
 
