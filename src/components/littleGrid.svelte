@@ -42,16 +42,31 @@
         margin: auto;
         text-align: center;
         text-transform: capitalize;
-        border-radius: 10px;
-       
+        border-radius: 10px;   
+    }
+    h2{
+      color: var(--paragraph);
+      font-size: 1.1rem;
+      font-weight: var(--bold);
+    }
+    p{
+      color: var(--button-hover);
+      font-size: 0.9rem;
+      font-weight: var(--light);
     }
     .inner-container{
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid var(--header-span);
     }
     @media only screen and (min-width: 800px) {
     .grid-container{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+    }
+    h2{
+      font-size: 1.3rem;
+    }
+    p{
+      font-size: 1rem;
     }
     
   }
@@ -62,10 +77,16 @@
         width: 50vw;
         margin: auto;
     }
+    h2{
+      font-size: 1.5rem;
+    }
+    p{
+      font-size: 1.2rem;
+    }
     .inner-container{
         border-bottom: none;
-        border-left: 1px solid black;
-        border-right: 1px solid black;
+        border-left: 1px solid var(--header-span);
+        border-right: 1px solid var(--header-span);
     }
     
     

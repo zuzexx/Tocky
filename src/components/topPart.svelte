@@ -8,8 +8,11 @@
         <h1>Grow your TikTok like a <span>pro</span></h1>
         <p class="paragraph">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
         <div class="input-container">
-            <input type="email" class="mail-input">
-            <Buttons>Start free trial!</Buttons>
+            <div class="put">
+                <input type="email" class="mail-input" placeholder="Email">
+                <Buttons>Start free trial!</Buttons> 
+            </div>
+            
             <div class="trial-text">
                 <p class="terms-of-service">Start your free 30-day trial. By providing your email, you agree to our <span>terms of service.</span> </p>
             </div>
@@ -41,6 +44,7 @@ h1 span{
     align-items: center;
     margin: auto;
 }
+
 .paragraph{
     font-weight: var(--light);
     font-size: 0.9rem;
@@ -102,7 +106,31 @@ h1 span{
     }
     h1{
         text-align: left;
+        font-size: 1.8rem;
+    }
+    h1 span{
+        font-size: 2rem;
+    }
+    input{
+        width: 25vw;
+    }
+    .input-container{
+        width: 25vw;
     }
     
+  }
+  @media only screen and (min-width: 1800px) {
+    input{
+        width: 500px;
+        margin-top: 0.8rem;
+        margin-right: 1rem;
+    }
+    .put{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 25vw;
+    }
   }
 </style>

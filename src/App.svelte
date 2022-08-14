@@ -40,7 +40,7 @@ import Footer from "./components/footer.svelte";
 	:root{
 		--background:#f3f3f3;
 		--header:#001446;
-		--paragraph:#030a67;
+		--paragraph:#141a74;
 		--light-paragraph:#c6ddea;
 		--button-color:#0c213a;
 		--button-hover:#9ec0ea;
