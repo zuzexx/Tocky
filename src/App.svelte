@@ -1,33 +1,38 @@
 <script>
-	import Header from "./landingPage/header.svelte";
-	import TopPart from "./landingPage/topPart.svelte";
-	import LittleGrid from "./landingPage/littleGrid.svelte";
-	import Trusted from "./landingPage/trusted.svelte";
-	import HowItWorks from "./landingPage/howItWorks.svelte";
-import Ready from "./landingPage/ready.svelte";
-import CustomerOpinion from "./landingPage/customerOpinion.svelte";
-import Pricing from "./landingPage/pricing.svelte";
-import Faq from "./landingPage/faq.svelte";
-import Newsletter from "./landingPage/newsletter.svelte";
-import Footer from "./landingPage/footer.svelte";
+ 
+	import  Router from "svelte-spa-router";
+  import About from "./routes/about/about.svelte";
+  import Blog from "./routes/blog/blog.svelte"
+  import Contact from "./routes/contact/contact.svelte"
+  import Faqp from "./routes/faqp/faqp.svelte"
+  import Price from "./routes/price/price.svelte"
+  import LandingPage from "./routes/landingPage/landingPage.svelte";
+  import Header from "./routes/components/header.svelte";
+import NotFound from "./notFound/notFound.svelte";
 
+
+  let routes = {
+    "/": LandingPage,
+    "/about": About,
+    "/blog":Blog,
+    "/contact":Contact,
+    "/faqp":Faqp,
+    "/price":Price,
+    "*":NotFound,
+  }
+
+
+  
 </script>
-<body>
-	
-	<header>
-		<Header/>
-	</header>
-	<main>
-	<TopPart/>
-	<LittleGrid/>
-	<Trusted/>
-	<HowItWorks/>
-	<Ready/>
-	<CustomerOpinion/>
-	<Pricing/>
-	<Faq/>
-	<Ready/>
-	<Newsletter/>
-	<Footer/>
-	</main>
-</body>
+
+<header>
+  <Header />
+</header>
+<Router {routes}/>
+
+
+
+
+
+
+

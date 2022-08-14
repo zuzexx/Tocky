@@ -1,5 +1,5 @@
 <script>
-    import Buttons from "../components./components/buttons.svelte";
+    import Buttons from "../components/buttons.svelte";
 
    
     let email = " ";
@@ -112,13 +112,7 @@
         margin-top: 1rem;
 
     }
-    .invalid{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 600px;
-    }
+    
     p{
         font-size: 1rem;
     }

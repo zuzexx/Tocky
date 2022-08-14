@@ -5,19 +5,20 @@
 <div class="header-container">
   <div class="outer-container">
     <div class="inner-container">
-      <img src="images/logo.png" alt="" class="logo" />
+      <a href="#/"><img src="images/logo.png" alt="" class="logo" /></a>
+      
       <Buttons>Grow yout TikTok today!</Buttons>
     </div>
 
     <ul>
-      <li>About</li>
-      <li>Pricing</li>
-      <li>Blog</li>
-      <li>FAQ</li>
-      <li>Contact</li>
+      <a href="#/about"><li>About</li></a>
+      <a href="#/price"><li>Pricing</li></a>
+      <a href="#/blog"><li>Blog</li></a>
+      <a href="#/faqp"><li>FAQ</li></a>
+      <a href="#/contact"><li>Contact</li></a>
+      
     </ul>
   </div>
- 
 </div>
 
 <style>
@@ -47,17 +48,15 @@
     padding: 1rem;
     font-size: 0.9rem;
     color: var(--header);
-    font-weight:var(--regular);
-   
+    font-weight: var(--regular);
   }
-  li:hover{
+  li:hover {
     cursor: pointer;
-    border-bottom:1px solid var(--header-border-bottom);
+    border-bottom: 1px solid var(--header-border-bottom);
     text-transform: uppercase;
-    border-left:1px solid var(--header-border-top);
-    font-weight:var(--medium);
+    border-left: 1px solid var(--header-border-top);
+    font-weight: var(--medium);
     font-size: 1rem;
-    
   }
   .logo {
     width: 50px;
@@ -73,16 +72,16 @@
   }
 
   @media only screen and (min-width: 800px) {
-    .header-container, .inner-container {
+    .header-container,
+    .inner-container {
       width: 50vw;
     }
     li {
-    padding: 2.5rem;
-    font-size: 1.3rem;
-  }
-  li:hover{
-    font-size: 1.4rem;
-  }
-    
+      padding: 2.5rem;
+      font-size: 1.3rem;
+    }
+    li:hover {
+      font-size: 1.4rem;
+    }
   }
 </style>

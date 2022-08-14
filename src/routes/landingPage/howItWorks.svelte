@@ -57,69 +57,72 @@
 </div>
 
 <style>
-    .container{
-        margin:auto;
-        text-align: center;
-        width: 80vw;
-        margin-top: 10rem;
-    }
-    .how-container{
-        width:80vw;
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        grid-template-columns: 1fr 1fr;
-        row-gap: 2rem;
-        margin-top: 4rem;
-    }
+  .container {
+    margin: auto;
+    text-align: center;
+    width: 80vw;
+    margin-top: 10rem;
+  }
+  .how-container {
+    width: 80vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    margin-top: 4rem;
+  }
   .icon {
     width: 50px;
   }
-  .inner-container p{
-        max-width: 250px;
-        margin: auto;
-        padding: 2rem;
+  .inner-container p {
+    max-width: 250px;
+    margin: auto;
+    padding: 2rem;
+  }
+  p {
+    color: var(--paragraph);
+    font-size: 0.9rem;
+  }
+  .icon:hover {
+    animation: Animation 2s linear;
+    animation-iteration-count: infinite;
+    transition: 0.7s;
+    cursor: pointer;
+  }
+  @keyframes Animation {
+    0% {
+      transform: scale(1);
     }
-    p{
-      color:var(--paragraph);
-      font-size: 0.9rem;
+    25% {
+      transform: scale(0.95);
     }
-    .icon:hover{
-      animation:Animation 2s linear ;
-      animation-iteration-count: infinite;
-      transition: 0.7s;
-      cursor: pointer;
-
+    55% {
+      transform: scale(1);
     }
-    @keyframes Animation{
-      0%{transform:scale(1);}
-      25%{transform:scale(0.95);}
-      55%{transform:scale(1);}
-      80%{transform:scale(0.95);}
+    80% {
+      transform: scale(0.95);
     }
-    .how-container{
-      margin-top: 6rem;
-    }
-
+  }
+  .how-container {
+    margin-top: 6rem;
+  }
 
   @media only screen and (min-width: 1200px) {
-    .container{
-       
-        width: 50vw;
+    .container {
+      width: 50vw;
     }
-    .how-container{
-        width:50vw;
-        
-        grid-template-columns: 1fr 1fr 1fr;
-        
+    .how-container {
+      width: 50vw;
+
+      grid-template-columns: 1fr 1fr 1fr;
     }
-    p{
+    p {
       font-size: 1rem;
     }
-    .paragraph{
-      max-width:800px;
+    .paragraph {
+      max-width: 800px;
       margin: auto;
     }
-    
   }
 </style>

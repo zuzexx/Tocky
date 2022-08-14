@@ -27,6 +27,7 @@ I got an idea for this site from the [Edgy site](https://catherineisonline.githu
 - [Svelte](https://svelte.dev/) - JS framework
 -[Svelte transitions](https://www.npmjs.com/package/svelte-transitions) - for customer images
 - [Svelte collapsible](https://www.npmjs.com/package/svelte-collapsible) - for faq accordion
+- [Svelte spa router](https://www.npmjs.com/package/svelte-spa-router) - for routing multiple pages
 
 ### Useful resources
 
