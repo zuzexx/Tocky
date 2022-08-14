@@ -41,24 +41,28 @@
     </div>
     <hr>
     <div class="social-media">
-        <a href="www.facebook.com"><img src="images/facebook-logo.png" alt="" class="facebook"></a>
-        <a href="www.tiktok.com"><img src="images/tik-tok.png" alt="" class="tiktok"></a>
-        <a href="www.instagram.com"><img src="images/instagram-logo.png" alt="" class="instagram"></a>
-        <a href="www.twitter.com"><img src="images/twitter-logo.png" alt="" class="twitter"></a>
+        <a href="www.facebook.com" target="_blank"><img src="images/facebook-logo.png" alt="" class="facebook"></a>
+        <a href="www.tiktok.com" target="_blank"><img src="images/tik-tok.png" alt="" class="tiktok"></a>
+        <a href="www.instagram.com" target="_blank"><img src="images/instagram-logo.png" alt="" class="instagram"></a>
+        <a href="www.twitter.com" target="_blank"><img src="images/twitter-logo.png" alt="" class="twitter"></a>
     </div>
 </footer>
  <style>
     footer{
-        width: 80vw;
+       /* width: 100vw;*/
         height: auto;
         margin-top: 6rem;
         padding:2rem;
+        
+       
+  bottom: 0;
+  width: 100%;
        
     }
     li{
         font-size: 0.8rem;
         font-weight: var(--light);
-        color:var(--button-hover) ;
+        color:var(--footer) ;
         padding: 0.2rem;
     }
     li:hover{
@@ -73,12 +77,14 @@
         align-items: center;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+        margin: auto;
     }
     img{
         width: 40px;
+        padding: 1rem;
     }
     hr{
-        width: 80vw;
+        width: 100vw;
         margin: auto;
         margin-bottom: 2rem;
         margin-top: 2rem;
@@ -91,11 +97,17 @@
         list-style-type: none;
         text-align: left;
     }
+    .social-media{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       margin: auto;
+       width: 50vw;
+    }
 
-    @media only screen and (min-width: 1200px) {
-        footer{
-            width: 50vw;
-        }
+    @media only screen and (min-width: 1000px) {
+       
         .footer-container{
             width: 50vw;
             display: flex;
@@ -104,7 +116,7 @@
             align-items: center;
         }
         hr{
-            width: 50vw;
+            width: 100vw;
         }
         li{
             font-size: 0.9rem;

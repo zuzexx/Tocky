@@ -38,27 +38,30 @@ import Footer from "./components/footer.svelte";
 <style>
 
 	:root{
-		--background:#f3f3f3;
-		--header:#001446;
-		--paragraph:#141a74;
-		--light-paragraph:#c6ddea;
-		--button-color:#0c213a;
-		--button-hover:#9ec0ea;
+		--background:#282828;
+		--header:#f0f0f0;
+		--paragraph:#d4d4d4;
+		--light-paragraph:#dcdcdc;
+		--button-color:#0bb2ca;
+		--button-hover:#891109;
 		--header-border-top:#35edfa;
 		--header-border-bottom:#db464f;
 		--header-span:#97dee8;
+		--little-grid:#9f9f9f;
+		--free-trial:#3d3d3d;
+		--newsletter:#242424;
+		--footer:#e0e0e0;
 	}
 	
 	
+	
 main{
-	width: 80vw;
+	width: 100vw;
 	margin: auto;
 }
 
 @media only screen and (min-width: 1200px) {
-    main {
-      width: 50vw;
-    }
+    
     
   }
 </style>

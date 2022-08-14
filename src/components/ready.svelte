@@ -1,22 +1,34 @@
 <script>
   import Buttons from "./buttons.svelte";
-</script>
 
-<div class="container">
-  <h2>Start your free trial today!</h2>
-  <Buttons>I want a free trial!</Buttons>
+
+
+</script>
+<div class="main">
+  <div class="container">
+    <h2>Start your free trial today!</h2>
+    <Buttons>I want a free trial!</Buttons>
+  </div>
 </div>
 
+
 <style>
+  .main{
+    width: 100vw;
+    background-color: var(--free-trial);
+    padding: 2rem;
+    margin-top: 7rem;
+  }
   .container {
     width: 80vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--light-paragraph);
-    padding: 2rem;
-    border-radius: 20px;
+    
+    
+    
     margin-top: 10rem;
+    margin: auto;
   }
   
 

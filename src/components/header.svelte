@@ -17,11 +17,7 @@
       <li>Contact</li>
     </ul>
   </div>
-  <!--
-    <div class="header-btns">
-        <Buttons>Grow yout TikTok today!</Buttons>
-        
-    </div>-->
+ 
 </div>
 
 <style>
@@ -81,7 +77,11 @@
       width: 50vw;
     }
     li {
-    padding: 2rem;
+    padding: 2.5rem;
+    font-size: 1.3rem;
+  }
+  li:hover{
+    font-size: 1.4rem;
   }
     
   }

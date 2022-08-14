@@ -46,12 +46,17 @@
     }
    
     p{
-      color: var(--button-hover);
+      color: var(--little-grid);
       font-size: 0.9rem;
       font-weight: var(--light);
     }
     .inner-container{
         border-bottom: 1px solid var(--header-span);
+        padding: 2rem;
+    }
+    h2:hover{
+      transform: rotate(360deg);
+      transition: 1s;
     }
     @media only screen and (min-width: 800px) {
     .grid-container{
@@ -72,7 +77,7 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         width: 50vw;
         margin: auto;
-        margin-top: 6rem;
+        margin-top: 9rem;
     }
     h2{
       font-size: 1.5rem;

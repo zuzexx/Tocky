@@ -62,7 +62,7 @@
 
 <style>
 :global(.accordion) {
-    width: 30vw;
+    width: 35vw;
     max-width: 650px;
     margin: 3rem auto;
 }

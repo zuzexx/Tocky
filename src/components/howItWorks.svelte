@@ -61,7 +61,7 @@
         margin:auto;
         text-align: center;
         width: 80vw;
-        margin-top: 9rem;
+        margin-top: 10rem;
     }
     .how-container{
         width:80vw;
@@ -70,6 +70,7 @@
         align-items: center;
         grid-template-columns: 1fr 1fr;
         row-gap: 2rem;
+        margin-top: 4rem;
     }
   .icon {
     width: 50px;
@@ -77,10 +78,27 @@
   .inner-container p{
         max-width: 250px;
         margin: auto;
+        padding: 2rem;
     }
     p{
       color:var(--paragraph);
       font-size: 0.9rem;
+    }
+    .icon:hover{
+      animation:Animation 2s linear ;
+      animation-iteration-count: infinite;
+      transition: 0.7s;
+      cursor: pointer;
+
+    }
+    @keyframes Animation{
+      0%{transform:scale(1);}
+      25%{transform:scale(0.95);}
+      55%{transform:scale(1);}
+      80%{transform:scale(0.95);}
+    }
+    .how-container{
+      margin-top: 6rem;
     }
 
 

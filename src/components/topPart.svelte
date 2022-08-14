@@ -1,6 +1,25 @@
 <script>
     import Buttons from "./buttons.svelte";
 
+    let email = " ";
+  
+  let hasBeenClicked = false;
+
+  function validateEmail(email) {
+    var emailRegEx = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;  
+    return emailRegEx.test(String(email).toLowerCase());
+  }
+
+  function handleSubmission() {
+    hasBeenClicked = true;
+
+    if (isValidEmail) {
+      // Send data somewhere
+      alert("You will get an email shortly.");
+    }
+  }
+  $: isValidEmail = validateEmail(email);
+
 </script>
 
 <div class="container">
@@ -9,8 +28,11 @@
         <p class="paragraph">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
         <div class="input-container">
             <div class="put">
+                {#if hasBeenClicked && !isValidEmail} 
+                <p class="validation-error">Invalid email</p>
+              {/if}
                 <input type="email" class="mail-input" placeholder="Email">
-                <Buttons>Start free trial!</Buttons> 
+                <Buttons on:click={handleSubmission}>Start free trial!</Buttons> 
             </div>
             
             <div class="trial-text">
@@ -30,6 +52,10 @@ h1{
     font-size: 1.3rem;
     font-weight: var(--semi-bold);
 }
+.validation-error{
+        font-size:0.7rem;
+        color:var(--header-border-bottom);
+    }
 h1 span{
     font-size: 1.4rem;
     font-weight: var(--bold);
