@@ -9,8 +9,8 @@ This site includes sign up, sign in and contact forms, a blog page, an FAQ secti
 
 ### Screenshot
 
-![desktop](public/images/desktop.jpg)
-![mobile](public/images/mobile.jpg)
+![desktop](public/images/desktop.JPG)
+![mobile](public/images/mobile.JPG)
 
 
 ### Links
