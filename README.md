@@ -1,4 +1,4 @@
-# Tocky - a Tik Tok marketing agency (Work in progress)
+# Tocky - a TikTok marketing agency
 
 Tocky is a social media marketing agency specializing in growing TikTok profiles for businesses and influencers.
 

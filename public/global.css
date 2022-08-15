@@ -1,99 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-:root{
-    --font-family: 'Montserrat', sans-serif;
-    --thin:100;
-    --extra-light:200;
-    --light:300;
-    --regular:400;
-    --medium:500;
-    --semi-bold:600;
-    --bold:700;
-    --extra-bold:800;
-    --black:900;
-    --background:#282828;
-		--header:#f0f0f0;
-		--paragraph:#d4d4d4;
-		--light-paragraph:#dcdcdc;
-		--button-color:#0bb2ca;
-		--button-hover:#891109;
-		--header-border-top:#35edfa;
-		--header-border-bottom:#db464f;
-		--header-span:#97dee8;
-		--little-grid:#9f9f9f;
-		--free-trial:#3d3d3d;
-		--newsletter:#242424;
-		--footer:#e0e0e0;
+:root {
+  --font-family: "Montserrat", sans-serif;
+  --thin: 100;
+  --extra-light: 200;
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --semi-bold: 600;
+  --bold: 700;
+  --extra-bold: 800;
+  --black: 900;
+  --background: #282828;
+  --header: #f0f0f0;
+  --paragraph: #d4d4d4;
+  --light-paragraph: #dcdcdc;
+  --button-color: #0bb2ca;
+  --button-hover: #891109;
+  --header-border-top: #35edfa;
+  --header-border-bottom: #db464f;
+  --header-span: #97dee8;
+  --little-grid: #9f9f9f;
+  --free-trial: #3d3d3d;
+  --newsletter: #242424;
+  --footer: #e0e0e0;
 }
-*:focus { /* no focus border on input and other elements*/
-    outline: none;
-  }
+*:focus {
+  /* no focus border on input and other elements*/
+  outline: none;
+}
 
-body{
-    font-family: var(--font-family);
-    width: 100vw;
-    height: 100vh;
-    
-   
-        background-color: var(--background);
-    
+body {
+  font-family: var(--font-family);
+  width: 100vw;
+  height: 100vh;
+
+  background-color: var(--background);
 }
-a{
+a {
   text-decoration: none;
 }
-input, textarea{
-    width: 50vw;
-    height: 1rem;
-    padding: 1rem;
-    border:1px solid var(--light-paragraph);
-    border-radius: 30px;
-    margin-bottom: 1rem;
-    color:var(--light-paragraph);
-    font-family: var(--font-family);
-    font-size: 1.1rem;
-    }
-    ::placeholder { 
-        color: var(--light-paragraph);
-      font-family: var(--font-family);
-      opacity: 1; 
-    }
-    :-ms-input-placeholder { 
-        color: var(--light-paragraph);
-      font-family: var(--font-family);
-    }
-    ::-ms-input-placeholder {
-      color: var(--light-paragraph);
-      font-family: var(--font-family);
-    }
+input,
+textarea {
+  width: 50vw;
+  height: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--light-paragraph);
+  border-radius: 30px;
+  margin-bottom: 1rem;
+  color: var(--light-paragraph);
+  font-family: var(--font-family);
+  font-size: 1.1rem;
+}
+::placeholder {
+  color: var(--light-paragraph);
+  font-family: var(--font-family);
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  color: var(--light-paragraph);
+  font-family: var(--font-family);
+}
+::-ms-input-placeholder {
+  color: var(--light-paragraph);
+  font-family: var(--font-family);
+}
 
-    h2{
-        color: var(--paragraph);
-        font-size: 1.1rem;
-        font-weight: var(--bold);
-      }
-      h3{
-        font-size: 1rem;
-        font-weight: var(--bold);
-        color: var(--header);
-      }
-      h5{
-        font-size: 0.9rem;
-        color: var(--header);
-      }
-      main{
-        width: 100vw;
-        margin: auto;
-      }
-      
+h2 {
+  color: var(--paragraph);
+  font-size: 1.1rem;
+  font-weight: var(--bold);
+}
+h3 {
+  font-size: 1rem;
+  font-weight: var(--bold);
+  color: var(--header);
+}
+h5 {
+  font-size: 0.9rem;
+  color: var(--header);
+}
+main {
+  width: 100vw;
+  margin: auto;
+}
 
-      @media only screen and (min-width:1200px){
-        h2{
-            font-size: 1.5rem;
-          }
-          h3{
-            font-size: 1.2rem;
-          }
-          h5{
-            font-size: 1rem;
-          }
-      }
+@media only screen and (min-width: 1200px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+}

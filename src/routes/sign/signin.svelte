@@ -34,8 +34,8 @@
     </div>
     <div class="bottom-container">
       <div class="check">
-        <input type="checkbox" name="radio">
-      <label for="radio">Remember me</label>
+        <input type="checkbox" name="radio" />
+        <label for="radio">Remember me</label>
       </div>
       <p class="password-forgot">Forgot your password?</p>
     </div>
@@ -45,24 +45,24 @@
 </div>
 
 <style>
-  .bottom-container{
+  .bottom-container {
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 50vw;
   }
-  .password-forgot{
+  .password-forgot {
     color: var(--header-span);
     font-size: 0.8rem;
   }
-  .password-forgot:hover{
+  .password-forgot:hover {
     cursor: pointer;
     text-decoration: underline;
   }
-  .check{
+  .check {
     display: flex;
-    width:100px;
+    width: 100px;
     justify-content: center;
     align-items: center;
     font-size: 0.7rem;
@@ -84,6 +84,7 @@
     align-items: center;
     width: 80vw;
     margin: auto;
+    text-align: center;
   }
 
   label {
@@ -98,13 +99,13 @@
     text-align: left;
     width: 80vw;
   }
-  h1{
+  h1 {
     color: var(--header);
   }
-  p{
+  p {
     color: var(--paragraph);
   }
-  a{
+  a {
     color: var(--header-span);
     font-weight: var(--bold);
     text-decoration: none;
@@ -112,6 +113,7 @@
 
   @media only screen and (min-width: 1200px) {
     form {
+      margin: auto;
       margin-top: 2rem;
       max-width: 700px;
     }
@@ -127,7 +129,7 @@
     input {
       max-width: 700px;
     }
-    .bottom-container{
+    .bottom-container {
       max-width: 700px;
     }
   }

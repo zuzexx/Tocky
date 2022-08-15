@@ -7,16 +7,13 @@
     <div class="inner-container">
       <a href="#/"><img src="images/logo.png" alt="" class="logo" /></a>
       <a href="#/signup"><Buttons>Grow yout TikTok today!</Buttons></a>
-      
     </div>
 
     <ul>
       <a href="#/about"><li>About</li></a>
-      <a href="#/price"><li>Pricing</li></a>
       <a href="#/blog"><li>Blog</li></a>
       <a href="#/faqp"><li>FAQ</li></a>
       <a href="#/contact"><li>Contact</li></a>
-      
     </ul>
   </div>
 </div>
