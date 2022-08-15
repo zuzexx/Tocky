@@ -93,7 +93,7 @@
         color: var(--header-span);
     }
 
-    @media only screen and (min-width:1200px){
+    @media only screen and (min-width:1440px){
         form, .text{
             width: 25vw;
         }

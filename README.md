@@ -7,8 +7,8 @@ I got an idea for this site from the [Edgy site](https://catherineisonline.githu
 
 ### Screenshot
 
-![desktop]()
-![mobile]()
+![desktop](./public/images/desktop.jpg)
+![mobile](./public/images/mobile.jpg)
 
 
 ### Links

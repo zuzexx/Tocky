@@ -22,7 +22,7 @@
         display: none;
     }
 
-    @media only screen and (min-width:1200px){
+    @media only screen and (min-width:1440px){
         img{
             display: flex;
             width: 25vw;
