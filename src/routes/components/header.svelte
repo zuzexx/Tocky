@@ -6,8 +6,8 @@
   <div class="outer-container">
     <div class="inner-container">
       <a href="#/"><img src="images/logo.png" alt="" class="logo" /></a>
+      <a href="#/signup"><Buttons>Grow yout TikTok today!</Buttons></a>
       
-      <Buttons>Grow yout TikTok today!</Buttons>
     </div>
 
     <ul>

@@ -9,6 +9,8 @@
   import LandingPage from "./routes/landingPage/landingPage.svelte";
   import Header from "./routes/components/header.svelte";
 import NotFound from "./routes/notFound/notFound.svelte";
+import Signup from "./routes/sign/signup.svelte";
+import Signin from "./routes/sign/signin.svelte";
 
 
   let routes = {
@@ -18,6 +20,8 @@ import NotFound from "./routes/notFound/notFound.svelte";
     "/contact":Contact,
     "/faqp":Faqp,
     "/price":Price,
+    "/signup":Signup,
+    "/signin": Signin,
     "*":NotFound,
   }
 

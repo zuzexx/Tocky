@@ -1,8 +1,10 @@
-# Tocky - a Tik Tok marketing agency
+# Tocky - a Tik Tok marketing agency (Work in progress)
 
 Tocky is a social media marketing agency specializing in growing TikTok profiles for businesses and influencers.
 
 I got an idea for this site from the [Edgy site](https://catherineisonline.github.io/edgy/) made by [Catherine](https://github.com/catherineisonline). Check her out! Her work is amazing! I also used [High Social](https://www.highsocial.com) for inspiration.
+
+This site includes sign up, sign in and contact forms, a blog page, an FAQ section, and multiple other pages.
 
 
 ### Screenshot
